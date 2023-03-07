@@ -23,7 +23,7 @@ databases:
 
 features:
     - mysql: false
-    - mariadb: false
+    - mariadb: true
     - postgresql: false
     - ohmyzsh: true
     - webdriver: false
