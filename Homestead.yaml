@@ -3,6 +3,7 @@ ip: "192.168.56.56"
 memory: 2048
 cpus: 4
 provider: virtualbox
+name: homestead-eden
 
 authorize: ~/.ssh/id_rsa.pub
 
