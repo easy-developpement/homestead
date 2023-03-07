@@ -11,15 +11,22 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/code
-      to: /home/vagrant/code
+    - map: ~/std-eden
+      to: /home/vagrant/std-eden
+
+    - map: ~/phpmyadmin
+      to: /home/vagrant/phpmyadmin
 
 sites:
-    - map: homestead.test
-      to: /home/vagrant/code/public
+    - map: std-eden.dev
+      to: /home/vagrant/std-eden
+
+    - map: phpmyadmin.dev
+      to: /home/vagrant/phpmyadmin
 
 databases:
-    - homestead
+    - std-eden
+    - phpmyadmin
 
 features:
     - mysql: false
