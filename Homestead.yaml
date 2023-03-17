@@ -20,6 +20,7 @@ folders:
 sites:
     - map: std-eden.dev
       to: /home/vagrant/std-eden
+      php: "7.4"
 
     - map: phpmyadmin.dev
       to: /home/vagrant/phpmyadmin
