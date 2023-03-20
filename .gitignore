@@ -9,3 +9,5 @@ phpunit.xml
 .phpunit.result.cache
 wsl-init.log
 .backup/*
+
+certs/
